@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: #333;
+  .brand {
+    font-weight: bold;
+    a {
+      color: #fff;
+    }
+  }
+  .menu {
+    display: flex;
+    .menu-item {
+      padding: 5px;
+      a {
+        color: #ccc;
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+    &.active {
+      text-decoration: underline;
+    }
+  }
+}
